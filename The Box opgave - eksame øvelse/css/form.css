@@ -1,0 +1,33 @@
+form {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 80px;
+    margin-top: 100px;
+    background-color: var(--light-neutral-color);
+}
+form p {
+    width: 75%;
+    font-weight: lighter;
+}
+
+input, textarea {
+    width: 40em;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    box-shadow: lightgray 0px 0px 3px;
+
+}
+
+#c-btn {
+    margin-top: 2em;
+    width: 200px;
+    height: 40px;
+    border: none;
+    color: var(--white-color);
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

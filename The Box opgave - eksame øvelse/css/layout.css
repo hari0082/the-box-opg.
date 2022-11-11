@@ -1,0 +1,67 @@
+
+/* nav + header */
+
+.logo {
+    width: 150px;
+}
+
+nav {
+    display: flex;
+    justify-content: end;
+    flex-wrap: wrap;
+    padding-left: 200px;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 1.5em;
+
+}
+
+nav ul li a {
+    color: var(--neutral-color);
+    text-decoration: none;
+    font-size: 1em;
+    position: relative;
+}
+
+nav ul li a:hover {
+    color: var(--secondary-color);
+}
+
+li:last-of-type {
+    font-weight: 700;
+}
+
+img {
+    width: 1170px;
+    background-size: cover;
+    background-position: center;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+#hero {
+    background-image: url("../img/hero.jpg");
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+#hero {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 100px;
+    font-weight: 700;
+    font-size: 4em;
+}
+
+
+/* Media screen - til iphone */
+
+@media only screen and (max-width: 500px) {}

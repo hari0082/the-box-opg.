@@ -1,0 +1,51 @@
+.container {
+    width: 90%;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10em;
+}
+
+.left {
+    width: 50%;
+    height: 400px;
+}
+
+#founder-pic {
+    width: 100%;
+}
+
+.right {
+    width: 30%;
+    background-color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    color: white;
+    margin-left: -300px;
+    margin-top: 5%;
+}
+  
+.right h2 {
+    font-size: 30px;
+    font-weight: bolder;
+    margin-bottom: 10%;
+}
+  
+.right p {
+    margin: 0 auto;
+    line-height: 20px;
+    font-weight: lighter;
+}
+  
+.btn {
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
